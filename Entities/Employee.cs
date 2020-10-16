@@ -9,7 +9,6 @@ namespace ConsoleApp10_1.Entities
 
         public Employee()
         {
-
         }
 
         public Employee(string name, int hours, double valuePerHour)

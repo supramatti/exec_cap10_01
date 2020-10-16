@@ -17,7 +17,7 @@ namespace ConsoleApp10_1.Entities
 
         public override double Payment()
         {
-            return Hours * ValuePerHour + (AdditionalCharge * 1.1);
+            return base.Payment() + (1.1 * AdditionalCharge);
         }
     }
 }
